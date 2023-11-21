@@ -1,0 +1,60 @@
+repo_name: cega/django-contacts
+report_id: 400295af40f3c714b86855a09b5a45cd
+repo_type: Public
+timestamp: '2023-11-21T12:18:08+00:00'
+requested_by: myles
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: setup.py
+  last_updated_by: Myles Braithwaite
+  last_updated_on: 2009-05-29 01:49:10.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: src/contacts/templates/admin/contacts/company/change_form.html
+  last_updated_by: Myles Braithwaite
+  last_updated_on: 2009-05-29 05:12:12.000000000 Z
+- name: distribute
+  description: Distribute legacy wrapper
+  package_url: https://pypi.org/distribute
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20052/default_9f5ca9b3fcd68c068d4026e56ab738e8e865691f.png
+  detection_source: setup.py
+  last_updated_by: Myles Braithwaite
+  last_updated_on: 2013-08-14 13:27:38.000000000 Z
